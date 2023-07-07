@@ -1,7 +1,8 @@
 from Model import Model
 
 class User():
-    def __init__(self, username: str, password: str, authentication = None, model = Model()):
+    def __init__(self, id: int, username: str, password: str, authentication = False, model = Model()):
+        self.id = id
         self.username = username
         self.password = password
         self.authentication = authentication
