@@ -3,14 +3,15 @@ import streamlit as st
 st.title('Instructions')
 st.write("To begin using the Machine Learning Helper, select the type of data processing.")
 
-classification, _, regression = st.columns([9, 2, 9])
+classification, _, regression = st.columns([9, 1, 9])
 
 
 with classification:
-    st.write("### Classification Models")
-    st.write("Classification refers to the blah blah blah.")
+    goto_classification = st.button("#### Classification Models")
+
+    
 
 with regression:
-    st.write("### Regression Models")
-    st.write("Regression refers to the blah blah blah.")
+    st.button("#### Regression Models")
+    
 

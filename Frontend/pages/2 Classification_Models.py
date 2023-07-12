@@ -2,10 +2,10 @@ import streamlit as st
 import requests
 
 st.title('Classification Models')
-st.write('#### Statistical classification is **identifying**, out of a list of classifications, which one an observation belongs to.')
+st.write('##### Statistical classification is **identifying**, out of a list of classifications, which one an observation belongs to.')
 
 
-st.subheader('Examples:')
+st.write('##### Examples:')
 
 col1, col2 = st.columns([0.04, 1])
 
